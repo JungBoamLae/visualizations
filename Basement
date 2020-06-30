@@ -1,0 +1,5 @@
+import seaborn as sns
+
+plt.figure(figsize=(9, 9))
+corr = card_df.corr()
+sns.heatmap(corr, cmap='RdBu')
